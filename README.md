@@ -2,7 +2,7 @@
 
 An end-to-end analysis of microbiome and metabolomics data from a mouse dietary intervention study investigating whether different stereoisomers and mixtures of **2,3-butanediol** modify the biological effects of a high-fat diet.
 
-This project was completed as part of **BIOC0023: Specialist Research Project in Multiomics & Data Science at UCL**. The analysis combines 16S rRNA sequencing, metabolite profiling, statistical testing, and data visualisation in Python and R.
+The analysis combines 16S rRNA sequencing, metabolite profiling, statistical testing, and data visualisation in Python and R.
 
 ## Study design
 
@@ -124,15 +124,7 @@ The analysis generates:
 
 Figures are exported in PNG and PDF formats by the relevant notebook cells.
 
-## Notes
 
-- The notebooks preserve the original exploratory analysis, including installation cells and alternative plotting approaches.
-- Some filenames and figure names are reused across cells and may overwrite earlier outputs.
-- The microbiome notebook includes both Python and R, so a working `rpy2`/R configuration is required for pairwise PERMANOVA.
-- Statistical results depend on the supplied data, filtering thresholds, random seeds, and software versions.
 
-## Author
 
-Jocelyn Cheung  
-UCL BSc Biochemistry — BIOC0023 Specialist Research Project in Multiomics & Data Science
 
